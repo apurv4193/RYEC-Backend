@@ -1,0 +1,125 @@
+input.invalid{
+ border: 1px solid red;
+}
+.invalid{
+ display: inline;
+}
+em.invalid {
+ width: auto;
+ display: inline;
+ color: red;
+ font-weight: normal;
+ font-style: normal;
+}
+
+.add-link{
+  font-size: 18px;
+  color:blue;
+}
+
+.i_delete{
+    color:#d73925;
+}
+.s_active{color: #008d4c;}
+.s_inactive{color: #d73925;}
+.add-btn-primary{width: 50px; margin-bottom: 10px;}
+
+.custom_check_boxgrp
+{
+  padding-top: 7px;
+}
+.custom_check_boxgrp input.checkbox-input {
+    display: inline-block;
+}
+.form-horizontal label.custom_control_lbl {
+    padding-top: 0;
+    padding-left: 10px;
+    text-align: left;
+    display: inline-block;
+    vertical-align: top;
+}
+.star_red
+{
+   color: red;
+   margin-left: 3px;
+}
+
+.business_img
+{
+    display: inline-block;
+    width: 60px;
+    border: 1px solid #ccc;
+    padding: 5px;
+    cursor: pointer;
+    position: relative;
+    margin-right: 10px;
+    text-align: center;
+}
+.business_img .fa-times-circle{
+    position: absolute;
+    right:-5px;
+    top: -5px;
+    color: #ff7800;
+    font-size: 15px;         
+}
+.business_img .fa-file-pdf-o{
+    position: static;
+}
+
+.check_box_set{
+    margin-top: 11px !important;
+}
+.open_hours_table{}
+.open_hours_table tbody tr td{font-size: 16px;border:none;}
+.hierarchy_category{
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+}
+.hierarchy_category span{
+    display: inline-block;
+    padding: 0;
+}
+.hierarchy_category span i{
+    color: #000;
+    margin: 0 5px;
+}
+.test{
+    margin-right: 15px;
+    position: relative;   
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}
+.test:after{
+    position: absolute;
+    right: -12px;
+    top: 0;
+    content: "::";
+} 
+.select2-container{
+    width:100% !important;
+}
+.select2-container--default .select2-selection--single{
+    border: 1px solid #d2d6de !important;
+    border-radius: 0 !important;
+    height: 33px !important;
+}
+.select2-dropdown{
+    border-radius: 0 !important;
+}
+#myModal .close{
+    outline:none;
+}
+#myModal .modal-dialog{
+    margin:100px auto;
+}
